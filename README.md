@@ -60,8 +60,8 @@ in a Python virtualenv.
 ```bash
 git clone https://github.com/fogleman/sdf.git
 cd sdf
-virtualenv env
-. env/bin/activate
+virtualenv env        (be sure to "pip install virtualenv" first)
+. env/bin/activate    (newer version seems to be env/Scripts/activate)
 pip install -e .
 ```
 
